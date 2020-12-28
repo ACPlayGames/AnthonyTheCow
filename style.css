@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+}
+
+#title {
+  padding: 1%;
+  vertical-align: middle;
+  font-size: 5vw;
+}
+
+.logo {
+  width: 10%;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#nav {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+.social-media {
+  width: 100px;
+}
+
+#non-mobile {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  #mobile {
+    display: none;
+  }
+  #non-mobile {
+    display: block;
+  }
+  #logo {
+    width: 100%;
+  }
+}

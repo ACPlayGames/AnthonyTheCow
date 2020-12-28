@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Anthony the Cow</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Anthony Chen" />
+    <meta
+      name="description"
+      content="A gallery website dedicated to Anthony the Cow."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="icon" href="img/icons/favicon.ico" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="w3-cell-row w3-pale-blue w3-mobile">
+      <div class="w3-display-container w3-cell w3-mobile">
+        <h1 class="w3-animate-left" id="title">Anthony the Cow</h1>
+        <a href="">
+          <img
+            class="w3-display-left w3-circle w3-hover-opacity logo"
+            src="img/official_art/moo.jpg"
+            alt="Creators of Anthony the Cow"
+          />
+        </a>
+        <img
+          class="w3-display-right logo"
+          src="img/icons/cow.png"
+          alt="Cow Icon"
+        />
+      </div>
+    </header>
+
+    <nav class="w3-container w3-bar" id="navbar">
+      <button class="w3-button w3-right" onclick="toggleNav()">&#9776;</button>
+
+      <div class="w3-right w3-animate-left" id="nav">
+        <a href="#top" class="w3-bar-item w3-button w3-hover-green w3-mobile"
+          >Home</a
+        >
+        <a
+          href="#profile"
+          class="w3-bar-item w3-button w3-hover-green w3-mobile"
+          >Profile</a
+        >
+        <a
+          href="#official-art"
+          class="w3-bar-item w3-button w3-hover-green w3-mobile"
+          >Official Art</a
+        >
+        <a
+          href="#fanarts"
+          class="w3-bar-item w3-button w3-hover-green w3-mobile"
+          >Fanarts</a
+        >
+      </div>
+    </nav>
+
+    <section class="w3-container w3-border" id="profile">
+      <h2>Profile</h2>
+      <img
+        class="w3-image"
+        src="img/official_art/profile.png"
+        alt="Anthony the Cow Profile"
+      />
+    </section>
+
+    <section class="w3-container w3-border" id="official-art">
+      <h2>Official Art</h2>
+
+      <!-- First Row of Official Art -->
+      <div class="w3-row">
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/20200518_132514.jpg"
+            alt="First Drawing"
+          />
+          <p>The first drawing of <em>Anthony the Cow</em>.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> May 18th, 2020 at 1:25.14 PM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/20200522_184413.jpg"
+            alt="Concept Art"
+          />
+          <p>A concept art of <em>Anthony the Cow</em>.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> May 22nd, 2020 at 6:44.13 PM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/20200529_005538.jpg"
+            alt="Digital Art"
+          />
+          <p>A digital art version of <em>Anthony the Cow</em> at 1 AM.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> May 29th, 2020 at 12:55.38 AM
+            </p>
+          </small>
+        </div>
+      </div>
+
+      <!-- Second Row of Official Art -->
+      <div class="w3-row">
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/20200529_184403.jpg"
+            alt="Digital Art 2"
+          />
+          <p>Another digital art version of <em>Anthony the Cow</em>.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> May 29th, 2020 at 6:44.03 PM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/plain-white-background.jpg"
+            alt="Invisible Anthony"
+          />
+          <p>Invisible version of <em>Anthony the Cow</em>.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> May 30th, 2020 at 12:21 AM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/20200601_221046.jpg"
+            alt="Another Doodle"
+          />
+          <p>Another doodle of <em>Anthony the Cow</em>.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> June 1st, 2020 at 10:10.46 PM
+            </p>
+          </small>
+        </div>
+      </div>
+
+      <!-- Third Row of Official Art -->
+      <div class="w3-row">
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/unknown.png"
+            alt="Anthony Drawn By Anthony"
+          />
+          <p>
+            The first drawing of <em>Anthony the Cow</em> that is not done by
+            Ducky.
+          </p>
+          <small>
+            <p>
+              <strong>Artist:</strong> ACPlayGames
+              <br />
+              <strong>Date:</strong> June 4th, 2020 at 7:36 PM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/20200604_231134.jpg"
+            alt="My Day"
+          />
+          <p>You light up my day!</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> June 4th, 2020 at 11:11.34 PM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/unknown1.png"
+            alt="Love and Support"
+          />
+          <p>❤️ Thank you for your love and support! ❤️</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> May 29th, 2020 at 12:55.38 AM
+            </p>
+          </small>
+        </div>
+      </div>
+
+      <!-- Fourth Row of Official Art -->
+      <div class="w3-row">
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/unknown2.png"
+            alt="Good Luck"
+          />
+          <p>Moo! *translation: "good luck!"</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> June 17th, 2020 at 11:49 AM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/unknown3.png"
+            alt="Trash Can Cow"
+          />
+          <p>Android or trash can version of <em>Anthony the Cow</em>?</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> June 17th, 2020 at 3:31 PM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/unknown4.png"
+            alt="Cool Human"
+          />
+          <p>♪ Keep being a cool human ♪</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> June 24th, 2020 at 9:53 AM
+            </p>
+          </small>
+        </div>
+      </div>
+
+      <!-- Fifth Row of Official Art -->
+      <div class="w3-row">
+        <div class="w3-third w3-container w3-card">
+          <img class="w3-image" src="img/official_art/unknown5.png" alt="Moo" />
+          <p>MOO!</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> June 24th, 2020 at 9:53 AM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/20200625_091330.png"
+            alt="Concept Art 2"
+          />
+          <p>The sequel to a concept art of <em>Anthony the Cow</em>.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> June 25th, 2020 at 9:13.30 AM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/moo.jpg"
+            alt="Creators of Anthony the Cow"
+          />
+          <p>
+            The two creators of <em>Anthony the Cow</em> (Ducky and
+            ACPlayGames).
+          </p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> November 25th, 2020 at 8:49 AM
+            </p>
+          </small>
+        </div>
+      </div>
+
+      <!-- Sixth Row of Official Art -->
+      <div class="w3-row">
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/20201201_110115.png"
+            alt="Festive Cow 1"
+          />
+          <p>Festive Cow the First.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> December 1st, 2020 at 11:01.15 AM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/official_art/unknown6.png"
+            alt="Festive Cow 2"
+          />
+          <p>Festive Cow the Second.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Ducky
+              <br />
+              <strong>Date:</strong> December 8th, 2020 at 5:32 PM
+            </p>
+          </small>
+        </div>
+      </div>
+    </section>
+
+    <section class="w3-container w3-border" id="fanarts">
+      <h2>Fanarts</h2>
+
+      <!-- First Row of Fanart -->
+      <div class="w3-row">
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/fanart/20200608_210556.jpg"
+            alt="Juhum Writing"
+          />
+          <p>
+            A piece of writing that shows the love for
+            <em>Anthony the Cow</em>.
+          </p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Juhum
+              <br />
+              <strong>Date:</strong> June 8th, 2020 at 9:05.56 PM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img class="w3-image" src="img/fanart/unknown.png" alt="Geo Fanart" />
+          <p>A fanart of <em>Anthony the Cow</em> by Geo.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Geo
+              <br />
+              <strong>Date:</strong> June 9th, 2020 at 11:03 PM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img class="w3-image" src="img/fanart/moo.png" alt="Granny Fanart" />
+          <p>A fanart of <em>Anthony the Cow</em> by granny.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> granny
+              <br />
+              <strong>Date:</strong> June 9th, 2020 at 11:03 PM
+            </p>
+          </small>
+        </div>
+      </div>
+
+      <!-- Second Row of Fanart -->
+      <div class="w3-row">
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/fanart/20200609_230318.jpg"
+            alt="Juhum Fanart"
+          />
+          <p>A fanart of <em>Anthony the Cow</em> by Juhum</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Juhum
+              <br />
+              <strong>Date:</strong> June 9th, 2020 at 11:03.18 PM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img
+            class="w3-image"
+            src="img/fanart/20200609_230427.jpg"
+            alt="Batcow"
+          />
+          <p>Looks like Batcow.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Juhum
+              <br />
+              <strong>Date:</strong> June 9th, 2020 at 11:04.27 PM
+            </p>
+          </small>
+        </div>
+
+        <div class="w3-third w3-container w3-card">
+          <img class="w3-image" src="img/fanart/image1.png" alt="Moon Fanart" />
+          <p>A fanart of <em>Anthony the Cow</em> by Moon.</p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Moon
+              <br />
+              <strong>Date:</strong> June 18th, 2020 at 11:19 AM
+            </p>
+          </small>
+        </div>
+      </div>
+
+      <!-- Third Row of Fanart -->
+      <div class="w3-row">
+        <div class="w3-third w3-container w3-card">
+          <img class="w3-image" src="img/fanart/moo1.png" alt="Duck and Cow" />
+          <p>
+            A fanart of <em>Anthony the Cow</em> submitted for extra credit
+            involving a duck and a cow.
+          </p>
+          <small>
+            <p>
+              <strong>Artist:</strong> Sudipta C.
+              <br />
+              <strong>Date:</strong> December 23rd, 2020 at 11:44 AM
+            </p>
+          </small>
+        </div>
+      </div>
+    </section>
+
+    <footer class="w3-container w3-light-gray">
+      <p id="copyright"><small></small></p>
+      <a href="https://discord.gg/ExC7rRf" target="_blank">
+        <img
+          class="social-media w3-button w3-circle"
+          src="img/icons/discord.jpg"
+          alt="Discord"
+        />
+      </a>
+      <a href="https://www.instagram.com/_anthony.the.cow_/" target="_blank">
+        <img
+          class="social-media w3-button w3-circle"
+          src="img/icons/instagram.jpg"
+          alt="Instagram"
+        />
+      </a>
+    </footer>
+  </body>
+</html>
