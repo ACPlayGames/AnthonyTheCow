@@ -10,12 +10,10 @@ document.getElementById(
 
 function toggleNav() {
   if (!navOpen) {
-    // show navbar
     navOpen = true;
     NAV.style.display = 'block';
     NAVBAR.className += ' w3-pale-green';
   } else {
-    // hide navbar
     navOpen = false;
     NAV.style.display = 'none';
     NAVBAR.className = NAVBAR.className.replace(' w3-pale-green', '');
